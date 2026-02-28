@@ -1,0 +1,939 @@
+{
+  "common": {
+    "menu": {
+      "open": "打开菜单",
+      "close": "关闭菜单",
+      "title": "菜单",
+      "user": "用户菜单"
+    },
+    "language": {
+      "en": "英文",
+      "zh": "中文",
+      "switchTo": "切换到 {locale}",
+      "current": "当前语言：{locale}"
+    },
+    "theme": {
+      "system": "跟随系统",
+      "light": "浅色",
+      "dark": "深色",
+      "toggle": "切换主题",
+      "switchTo": "切换到 {theme}"
+    },
+    "newsletter": {
+      "emailLabel": "邮箱地址",
+      "emailPlaceholder": "you@company.com",
+      "join": "加入",
+      "joining": "加入中...",
+      "success": "订阅成功。",
+      "error": "出错了，请重试。",
+      "unreachable": "无法连接服务器，请重试。"
+    },
+    "upload": {
+      "hint": "将文件拖放到这里，或选择文件。",
+      "choose": "选择文件"
+    },
+    "redirecting": "跳转中..."
+  },
+  "nav": {
+    "pricing": "价格",
+    "caseStudies": "案例研究",
+    "resources": {
+      "title": "资源",
+      "overview": {
+        "title": "概览",
+        "description": "了解 Attrax 包含内容以及如何使用。"
+      },
+      "docs": {
+        "title": "文档",
+        "description": "API、嵌入和发布参考。"
+      },
+      "guides": {
+        "title": "指南",
+        "description": "发布流程的分步实战手册。"
+      },
+      "blog": {
+        "title": "博客",
+        "description": "产品更新、故事与策略。"
+      },
+      "faq": {
+        "title": "常见问题",
+        "description": "常见问题与快速解答。"
+      }
+    },
+    "community": {
+      "title": "社区",
+      "hub": {
+        "title": "社区中心",
+        "description": "构建者分享发布与反馈的地方。"
+      },
+      "events": {
+        "title": "活动",
+        "description": "即将举行的演示、分享与线下聚会。"
+      },
+      "partners": {
+        "title": "合作伙伴",
+        "description": "与我们协作的工具与团队。"
+      },
+      "newsletter": {
+        "title": "资讯订阅",
+        "description": "在收件箱获取发布动态与趋势。"
+      }
+    },
+    "console": "控制台",
+    "signOut": "退出登录",
+    "logIn": "登录",
+    "signUp": "注册",
+    "launchProduct": "发布产品",
+    "launchHint": "如果你还没有会话，系统会先提示你登录。"
+  },
+  "auth": {
+    "consoleEyebrow": "Attrax AI 控制台",
+    "titleSignUp": "创建你的账号",
+    "titleSignIn": "欢迎回来",
+    "subtitleSignUp": "几分钟内即可开始提交新的 AI 产品。",
+    "subtitleSignIn": "登录以管理你的产品发布。",
+    "fullName": "姓名",
+    "fullNamePlaceholder": "张三",
+    "email": "邮箱地址",
+    "emailPlaceholder": "you@company.com",
+    "password": "密码",
+    "passwordPlaceholder": "请输入密码",
+    "pleaseWait": "请稍候...",
+    "createAccount": "创建账号",
+    "signIn": "登录",
+    "haveAccount": "已有账号？",
+    "newToAttrax": "第一次使用 Attrax AI？",
+    "createOne": "创建一个",
+    "backToMarketing": "返回营销站点",
+    "signingOut": "正在为你退出登录..."
+  },
+  "console": {
+    "eyebrow": "管理控制台",
+    "signedInAs": "当前登录账号",
+    "signOut": "退出登录",
+    "unknownUser": "未知",
+    "nav": {
+      "dashboard": "仪表盘",
+      "products": "产品",
+      "newProduct": "新建产品",
+      "start": "开始"
+    },
+    "cta": {
+      "title": "准备好发布了吗？",
+      "description": "创建一个新列表，并在 48 小时内完成审核。",
+      "action": "立即发布"
+    },
+    "checkingSession": "正在检查会话...",
+    "redirecting": "正在跳转到登录页...",
+    "titles": {
+      "console": "控制台",
+      "dashboard": "仪表盘",
+      "products": "产品",
+      "newProduct": "新建产品",
+      "editProduct": "编辑产品",
+      "preview": "产品预览"
+    },
+    "stats": {
+      "total": "产品总数",
+      "drafts": "草稿",
+      "submitted": "已提交",
+      "published": "已发布"
+    },
+    "recentActivity": {
+      "title": "最近动态",
+      "subtitle": "快速查看你的列表最近发生了什么。"
+    },
+    "loadingActivity": "正在加载动态...",
+    "emptyActivity": {
+      "title": "暂无动态",
+      "description": "创建产品后即可开始追踪变更。",
+      "action": "创建新产品"
+    },
+    "activity": {
+      "draftSaved": {
+        "title": "草稿已保存",
+        "description": "Attrax AI Studio 列表已更新。"
+      },
+      "submissionQueued": {
+        "title": "提交已排队",
+        "description": "正在等待 Attrax AI 团队审核。"
+      },
+      "assetUpdated": {
+        "title": "素材已更新",
+        "description": "已添加新的主视觉封面图。"
+      }
+    },
+    "products": {
+      "title": "全部产品",
+      "subtitle": "管理草稿、提交和已发布列表。",
+      "create": "创建新产品"
+    },
+    "loadingProduct": "正在加载产品...",
+    "notFound": {
+      "title": "未找到产品",
+      "description": "我们找不到这个产品。",
+      "editDescription": "我们找不到这个产品。请返回产品列表。",
+      "action": "返回产品列表"
+    },
+    "preview": {
+      "label": "预览",
+      "brochure": "卡片预览"
+    },
+    "editProduct": "编辑产品",
+    "untitledProduct": "未命名产品",
+    "organizationPending": "组织信息待完善",
+    "loadingProducts": "正在加载产品...",
+    "emptyProducts": {
+      "title": "还没有产品",
+      "description": "创建你的第一个列表，并开始从社区收集反馈。",
+      "action": "创建新产品"
+    },
+    "table": {
+      "product": "产品",
+      "status": "状态",
+      "updated": "更新时间",
+      "actions": "操作"
+    },
+    "actions": {
+      "view": "查看",
+      "edit": "编辑",
+      "duplicate": "复制",
+      "delete": "删除"
+    },
+    "delete": {
+      "title": "删除产品？",
+      "description": "这将从你的控制台移除该产品。此操作无法撤销。",
+      "confirm": "删除"
+    }
+  },
+  "products": {
+    "tabs": {
+      "all": "全部",
+      "newest": "最新",
+      "popular": "热门"
+    },
+    "untitled": "未命名产品",
+    "organizationFallback": "组织",
+    "featured": "精选",
+    "updated": "更新于 {date}",
+    "defaultSlogan": "面向现代团队的新一代 AI 产品。",
+    "view": "查看",
+    "visitWebsite": "访问网站",
+    "likes": "点赞",
+    "saves": "收藏",
+    "ratingCount": "({count})",
+    "demoBadge": "演示",
+    "demoListing": "演示列表",
+    "demoHelper": "用于预览的示例数据。",
+    "featuredTitle": "精选",
+    "featuredSubtitle": "人工挑选的发布与表现突出的团队。",
+    "trendingTitle": "今日趋势",
+    "trendingSubtitle": "市场中浏览量最高的产品。",
+    "trendingBadge": "趋势",
+    "views": "{count} 次浏览",
+    "curatedTitle": "精选产品",
+    "curatedSubtitle": "来自 Attrax 市场的人工精选 AI 发布。",
+    "viewAll": "查看全部产品",
+    "curatedEmpty": {
+      "title": "还没有精选产品",
+      "description": "访问市场浏览所有在线列表。",
+      "action": "浏览产品"
+    },
+    "marketplaceEyebrow": "市场",
+    "marketplaceTitle": "发现 AI 产品",
+    "marketplaceSubtitle": "探索 AttraX 市场中打造下一代 AI 的团队。",
+    "searchPlaceholder": "搜索产品或组织",
+    "sort": {
+      "label": "排序",
+      "newest": "最新",
+      "popular": "热门",
+      "name": "名称"
+    },
+    "filters": {
+      "status": "状态",
+      "statusAll": "全部状态",
+      "region": "地区",
+      "tags": "标签",
+      "demo": "演示列表",
+      "demoHint": "在结果中包含示例演示数据。",
+      "showDemo": "显示演示列表"
+    },
+    "regions": {
+      "all": "全部地区",
+      "global": "全球",
+      "na": "北美",
+      "eu": "欧洲",
+      "apac": "亚太",
+      "other": "其他"
+    },
+    "tags": {
+      "generalAssistant": "通用助手",
+      "imageGeneration": "图像生成",
+      "videoCreation": "视频创作",
+      "audioProcessing": "音频处理",
+      "programmingDevelopment": "编程开发",
+      "smartSearch": "智能搜索",
+      "knowledgeManagement": "知识管理",
+      "writingAids": "写作辅助",
+      "smartHardware": "智能硬件",
+      "virtualCompanionship": "虚拟陪伴",
+      "agentBuild": "智能体构建",
+      "efficiencyTools": "效率工具",
+      "generation3d": "3D 生成",
+      "scientificResearchAssistant": "科研助手",
+      "otherTypes": "其他类型"
+    },
+    "empty": {
+      "title": "还没有产品",
+      "description": "成为第一个将产品加入 AttraX 市场的人。",
+      "action": "添加你的产品"
+    },
+    "browseTitle": "浏览产品",
+    "browseSubtitle": "{count} 个列表",
+    "loadMore": "加载更多",
+    "marketplaceLabel": "市场",
+    "detailsTitle": "产品详情",
+    "trailer": {
+      "title": "预告片",
+      "noteFallback": "预告体验已启用。",
+      "releaseDate": "发布日期：{date}",
+      "reserve": "预约名额"
+    },
+    "acknowledgements": "致谢",
+    "snapshot": {
+      "title": "概览",
+      "organization": "组织：",
+      "region": "地区：",
+      "productType": "产品类型：",
+      "updated": "更新于：",
+      "views": "浏览量：",
+      "pricing": "定价"
+    },
+    "brochureTitle": "宣传卡片",
+    "atlasTitle": "Atlas 图集",
+    "backToProducts": "返回产品列表",
+    "notFound": {
+      "title": "未找到产品",
+      "description": "我们在市场中找不到这个产品。",
+      "action": "返回产品列表"
+    },
+    "previewLabel": "预览",
+    "previewDescriptionFallback": "你的产品描述会显示在这里。补充详情后即可更新预览。",
+    "actions": {
+      "follow": "关注",
+      "visitSite": "访问网站"
+    },
+    "coverPlaceholder": "封面图占位（保存后会显示上传内容）。",
+    "previewSloganFallback": "用一句容易记住的话描述你的产品。",
+    "pricing": {
+      "free": "免费",
+      "perMonth": "/月",
+      "perYear": "/年",
+      "oneTime": "一次性",
+      "contact": "可提供定价"
+    },
+    "types": {
+      "software": "软件",
+      "agent": "智能体",
+      "modelApi": "模型/API",
+      "hardware": "硬件",
+      "robotics": "机器人",
+      "researchDemo": "研究/演示"
+    }
+  },
+  "interactions": {
+    "follow": "关注",
+    "following": "已关注",
+    "bookmark": "收藏",
+    "bookmarked": "已收藏",
+    "comments": "评论"
+  },
+  "comments": {
+    "commentsTitle": "评论",
+    "writeComment": "写一条评论...",
+    "writeReply": "写一条回复...",
+    "postComment": "发布评论",
+    "reply": "回复",
+    "edit": "编辑",
+    "delete": "删除",
+    "save": "保存",
+    "cancel": "取消",
+    "loadMore": "加载更多",
+    "loadingMore": "加载中...",
+    "viewReplies": "查看回复",
+    "hideReplies": "收起回复",
+    "continueThread": "继续讨论",
+    "loadingComments": "正在加载评论...",
+    "loadingReplies": "正在加载回复...",
+    "emptyComments": "还没有评论，来发布第一条吧。",
+    "deletedComment": "该评论已被删除。",
+    "signInToInteract": "登录后即可关注、收藏或评论产品。",
+    "signIn": "登录",
+    "anonymous": "匿名"
+  },
+  "wizard": {
+    "steps": {
+      "basic": "基本信息",
+      "details": "详情",
+      "acknowledgements": "致谢",
+      "trailer": "预告",
+      "preview": "预览"
+    },
+    "status": {
+      "submitted": "提交审核成功。",
+      "draftSaved": "草稿保存成功。",
+      "draftSavedShort": "草稿已保存。",
+      "saving": "保存中...",
+      "success": "成功",
+      "error": "出现问题"
+    },
+    "mode": {
+      "edit": "编辑产品",
+      "new": "新建提交"
+    },
+    "stepCounter": "第 {step} / {total} 步",
+    "clearStep": "清空当前步骤",
+    "actions": {
+      "previous": "上一步",
+      "saveDraft": "保存草稿",
+      "next": "下一步"
+    },
+    "clearModal": {
+      "title": "清空此步骤？",
+      "description": "这会重置当前步骤中的所有字段。",
+      "confirm": "清空"
+    },
+    "restoring": "正在恢复草稿...",
+    "basic": {
+      "productName": "产品名称",
+      "productNamePlaceholder": "Attrax AI Studio",
+      "website": "官方网站 URL",
+      "websitePlaceholder": "https://",
+      "organization": "组织",
+      "organizationPlaceholder": "Attrax AI Labs",
+      "contactEmail": "联系邮箱",
+      "contactEmailPlaceholder": "team@dovble.ai",
+      "relationship": "提交者关系",
+      "region": "地区",
+      "regionPlaceholder": "选择地区",
+      "productType": "产品类型",
+      "productTypePlaceholder": "选择类型"
+    },
+    "relationship": {
+      "owner": {
+        "title": "创始人 / 所有者",
+        "description": "这个产品是我构建的。"
+      },
+      "teamMember": {
+        "title": "团队成员",
+        "description": "我代表团队提交。"
+      },
+      "thirdParty": {
+        "title": "第三方",
+        "description": "我代他人提交。"
+      }
+    },
+    "types": {
+      "software": "软件",
+      "agent": "智能体",
+      "modelApi": "模型/API",
+      "hardware": "硬件",
+      "robotics": "机器人",
+      "researchDemo": "研究/演示"
+    },
+    "details": {
+      "introSlogan": "简介标语",
+      "introSloganPlaceholder": "一句话说明产品价值。",
+      "productDetails": "产品详情",
+      "productDetailsPlaceholder": "说明产品做什么、面向谁，以及它的独特性。",
+      "markdownOn": "支持 Markdown（基础）。",
+      "markdownOff": "纯文本模式。",
+      "toggleMarkdown": "切换 Markdown 模式",
+      "togglePreview": "切换预览",
+      "previewTitle": "实时预览",
+      "classificationTags": "分类标签",
+      "productLogo": "产品 Logo",
+      "productLogoHint": "建议使用方形 Logo（可选）。",
+      "productCover": "产品封面",
+      "productCoverHint": "宽屏主视觉封面图（可选）。",
+      "coverTemplates": "选择封面模板",
+      "coverTemplatesHint": "选择示例封面，让你的列表看起来更精致。",
+      "coverTemplateAlt": "封面模板预览",
+      "selectedCover": "已选择",
+      "clearCover": "清除选择",
+      "templateCoverLabel": "已选择模板封面。",
+      "logoPreview": "Logo 预览",
+      "noLogo": "尚未选择 Logo。",
+      "coverPreview": "封面预览",
+      "noCover": "尚未选择封面。",
+      "productVideoUrl": "产品视频 URL",
+      "productVideoPlaceholder": "https://youtube.com/...",
+      "atlasImages": "详情页图集",
+      "atlasImagesHint": "上传多张截图或图片。",
+      "moveUp": "上移",
+      "moveDown": "下移",
+      "remove": "移除",
+      "noAtlas": "还没有图集图片。拖拽文件添加并排序。",
+      "emptyPreview": "添加产品详情后可查看预览。"
+    },
+    "tags": {
+      "helper": "请选择 {min}-{max} 个标签。",
+      "selectedCount": "已选择 {selected}/{max}"
+    },
+    "ack": {
+      "title": "添加使用过的产品",
+      "subtitle": "标注帮助你构建该产品的工具或服务。",
+      "productName": "产品名称",
+      "productNamePlaceholder": "OpenAI API",
+      "url": "URL（可选）",
+      "urlPlaceholder": "https://",
+      "note": "备注（可选）",
+      "notePlaceholder": "它在你的构建中起到了什么作用？",
+      "add": "添加产品",
+      "update": "更新产品",
+      "empty": "还没有添加致谢项。",
+      "edit": "编辑",
+      "remove": "移除"
+    },
+    "trailer": {
+      "title": "预告发布",
+      "subtitle": "为你的产品安排预告发布时间（可选）。",
+      "enable": "启用预告",
+      "releaseTime": "预告发布时间",
+      "note": "预告说明",
+      "notePlaceholder": "希望用户期待什么？",
+      "rules": "预告规则：发布时间必须至少晚于当前 24 小时。你也可以添加预约链接供用户提前报名。",
+      "reservations": {
+        "title": "启用预约",
+        "subtitle": "让用户在正式发布前预约名额。",
+        "enable": "启用预约",
+        "url": "预约链接",
+        "placeholder": "https://"
+      }
+    },
+    "preview": {
+      "detailTitle": "产品详情预览",
+      "cardTitle": "宣传卡片预览",
+      "readyTitle": "准备提交了吗？",
+      "readySubtitle": "请先检查信息，然后提交审核。",
+      "saveDraft": "保存为草稿",
+      "submit": "提交审核",
+      "back": "返回"
+    }
+  },
+  "status": {
+    "draft": "草稿",
+    "submitted": "已提交",
+    "published": "已发布"
+  },
+  "validation": {
+    "nameRequired": "请输入姓名。",
+    "emailInvalid": "请输入有效的邮箱地址。",
+    "passwordMin": "密码至少需要 6 个字符。",
+    "generic": "出现错误。",
+    "productNameRequired": "产品名称为必填项。",
+    "productNameMax": "最多 24 个字符。",
+    "websiteRequired": "需要有效的网站 URL。",
+    "organizationRequired": "组织为必填项。",
+    "organizationMax": "最多 32 个字符。",
+    "relationshipRequired": "请选择关系。",
+    "contactEmailRequired": "需要有效的联系邮箱。",
+    "productDetailsRequired": "产品详情为必填项。",
+    "tagsMin": "至少选择 1 个标签。",
+    "tagsMax": "最多选择 3 个标签。",
+    "urlInvalid": "请输入有效的 URL。",
+    "trailerReleaseRequired": "请选择发布时间。",
+    "trailerReleaseWindow": "发布时间必须至少晚于当前 24 小时。",
+    "reservationUrlInvalid": "请输入有效的预约链接 URL。"
+  },
+  "pricing": {
+    "eyebrow": "价格",
+    "title": "面向发布场景的简洁定价",
+    "subtitle": "占位页面。我们会在这里说明套餐、包含内容，以及如何让提交获得推荐展示。",
+    "actions": {
+      "explore": "浏览市场",
+      "launch": "发布产品"
+    }
+  },
+  "caseStudies": {
+    "eyebrow": "案例研究",
+    "title": "团队如何通过 Attrax 完成发布",
+    "subtitle": "占位页面。我们会展示来自精选列表的真实结果、流量与转化故事。",
+    "actions": {
+      "browse": "浏览产品",
+      "launch": "发布产品"
+    }
+  },
+  "resources": {
+    "overview": {
+      "eyebrow": "资源",
+      "title": "文档与指南",
+      "subtitle": "占位页面。文档、指南和 FAQ 的链接将放在这里。",
+      "actions": {
+        "docs": "阅读文档",
+        "launch": "发布产品"
+      }
+    },
+    "docs": {
+      "eyebrow": "资源 / 文档",
+      "title": "文档",
+      "subtitle": "文档与参考资料的占位页面。",
+      "actions": {
+        "back": "返回资源页",
+        "explore": "浏览产品"
+      }
+    },
+    "guides": {
+      "eyebrow": "资源 / 指南",
+      "title": "指南",
+      "subtitle": "发布实战手册与最佳实践的占位页面。",
+      "actions": {
+        "back": "返回资源页",
+        "launch": "发布产品"
+      }
+    },
+    "blog": {
+      "eyebrow": "资源 / 博客",
+      "title": "博客",
+      "subtitle": "发布相关更新、策略与故事的占位页面。",
+      "actions": {
+        "back": "返回资源页",
+        "explore": "浏览市场"
+      }
+    },
+    "faq": {
+      "eyebrow": "资源 / 常见问题",
+      "title": "常见问题",
+      "subtitle": "占位页面。这里将提供提交、审核与推荐位相关解答。",
+      "actions": {
+        "back": "返回资源页",
+        "launch": "发布产品"
+      }
+    }
+  },
+  "community": {
+    "hub": {
+      "eyebrow": "社区",
+      "title": "社区中心",
+      "subtitle": "占位页面。这里是构建者分享发布、反馈与协作的地方。",
+      "actions": {
+        "events": "查看活动",
+        "explore": "浏览产品"
+      }
+    },
+    "events": {
+      "eyebrow": "社区 / 活动",
+      "title": "活动",
+      "subtitle": "演示、分享与社区活动的占位页面。",
+      "actions": {
+        "back": "返回社区",
+        "launch": "发布产品"
+      }
+    },
+    "partners": {
+      "eyebrow": "社区 / 合作伙伴",
+      "title": "合作伙伴",
+      "subtitle": "合作伙伴计划与协作机会的占位页面。",
+      "actions": {
+        "back": "返回社区",
+        "explore": "浏览产品"
+      }
+    },
+    "newsletter": {
+      "eyebrow": "社区 / 资讯订阅",
+      "title": "资讯订阅",
+      "subtitle": "社区更新与每周发布精选的占位页面。",
+      "actions": {
+        "back": "返回社区",
+        "explore": "浏览市场"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "由 AI Secret 资讯订阅支持",
+      "title": "为你的 AI 产品打开全球市场",
+      "subtitle": "一体化基础设施，助你发布、变现与扩张。上线高质量发布页，触达高意向早期用户，并追踪真正带来转化的动作。",
+      "actions": {
+        "launch": "立即开始",
+        "recommended": "推荐",
+        "discover": "看看热门",
+        "watch": "观看视频"
+      },
+      "scroll": "为什么选择 Attrax",
+      "panel": {
+        "eyebrow": "发布画布",
+        "title": "干净上线所需的一切",
+        "subtitle": "一个能卖货的展示页、会点击的订阅受众，以及能证明效果的数据分析。",
+        "badge": "实时预览",
+        "items": {
+          "listing": "可直接上线的截图型列表",
+          "distribution": "向早期用户分发资讯订阅",
+          "deals": "定价链接 + 早鸟优惠",
+          "analytics": "浏览、点击与转化追踪"
+        }
+      },
+      "floating": {
+        "builders": "快速发布，用真实点击验证。",
+        "users": "用真实优惠发现优质工具。"
+      }
+    },
+    "why": {
+      "title": "为什么构建者和早期采用者选择 Attrax AI",
+      "subtitle": "为高速发布而生，同时不牺牲信任。",
+      "builders": {
+        "eyebrow": "面向构建者",
+        "title": "验证引擎",
+        "bullets": {
+          "seed": "从发现优先的受众中获取首批用户。",
+          "validate": "用真实信号验证定位，而不是凭感觉。",
+          "cta": "零摩擦 CTA：定价、链接与注册整合在一处。"
+        }
+      },
+      "users": {
+        "eyebrow": "面向用户",
+        "title": "最佳优惠保障",
+        "bullets": {
+          "lifetime": "终身优惠与早鸟价格。",
+          "earlyBird": "快速对比，放心下单。",
+          "quality": "精选发布，配有高质量信号与截图。"
+        }
+      }
+    },
+    "video": {
+      "eyebrow": "视频说明",
+      "title": "看看发布如何转化为增长",
+      "subtitle": "快速了解列表、分发机制以及获得推荐的关键。",
+      "action": "播放演示",
+      "close": "关闭",
+      "previewAlt": "视频预览"
+    },
+    "comparison": {
+      "title": "竞品对比",
+      "subtitle": "落地页 + 社会证明 + 产品展示，一套完整发布流程。",
+      "cards": {
+        "productHunt": {
+          "title": "Product Hunt",
+          "note": "（噪音太大）",
+          "points": {
+            "1": "发布流量过于拥挤",
+            "2": "曝光窗口很短",
+            "3": "购买意向偏低",
+            "4": "算法像抽奖"
+          }
+        },
+        "kickstarter": {
+          "title": "Kickstarter",
+          "note": "（节奏太慢）",
+          "points": {
+            "1": "准备周期过长",
+            "2": "活动运营负担重",
+            "3": "流程以募资为先",
+            "4": "并非为 AI 工具而设计"
+          }
+        },
+        "attrax": {
+          "title": "为什么是 Attrax",
+          "note": "（快速上线并变现）",
+          "badge": "AI 发布的最佳选择",
+          "points": {
+            "1": "快速上线 + 精致列表",
+            "2": "资讯订阅分发到买家",
+            "3": "内置定价与早鸟优惠",
+            "4": "基于真实信号的反馈与增长"
+          }
+        }
+      }
+    },
+    "market": {
+      "eyebrow": "产品商店",
+      "title": "以独家早期价格获取优质 AI 工具",
+      "subtitle": "浏览热门、快速对比，直接跳到最优选择。",
+      "actions": {
+        "launch": "免费试发布",
+        "browse": "浏览市场"
+      },
+      "hot": "热门",
+      "sparklineLabel": "趋势活跃度",
+      "empty": {
+        "title": "暂时没有热门产品",
+        "description": "有新产品上线后，你会在这里看到它们。",
+        "action": "浏览市场"
+      },
+      "new": "新上架",
+      "fresh": "最新",
+      "productAlt": "产品",
+      "untitled": "未命名",
+      "team": "团队",
+      "viewDetails": "查看详情"
+    },
+    "waitlist": {
+      "title": "加入等候名单",
+      "subtitle": "获取抢先访问、新发布与限时优惠。不打扰。",
+      "form": {
+        "title": "获取抢先访问",
+        "subtitle": "一个邮箱就够了。"
+      },
+      "eyebrow": "抢先访问",
+      "note": "每周一封精简邮件，提供发布机会与高意向买家流量。",
+      "benefits": {
+        "1": "每周精选发布推荐",
+        "2": "早期定价与额外优惠",
+        "3": "创始人实战转化笔记",
+        "4": "无骚扰，可随时退订"
+      }
+    },
+    "stats": {
+      "subscribers": {
+        "label": "订阅用户",
+        "detail": "可规模化的资讯订阅分发。"
+      },
+      "openRate": {
+        "label": "日打开率",
+        "detail": "一个真正会关注内容的社区。"
+      },
+      "clicks": {
+        "label": "点击量",
+        "detail": "将高意向流量带到你的发布页。"
+      }
+    },
+    "footer": {
+      "blurb": "面向 AI 构建者与早期采用者的简洁发布与发现平台。",
+      "product": {
+        "title": "产品",
+        "links": {
+          "video": "视频",
+          "market": "市场",
+          "waitlist": "等候名单",
+          "gtm": "GTM"
+        }
+      },
+      "company": {
+        "title": "公司",
+        "links": {
+          "about": "关于",
+          "contact": "联系",
+          "careers": "招聘"
+        }
+      },
+      "resources": {
+        "title": "资源",
+        "links": {
+          "newsletter": "资讯订阅",
+          "guidelines": "指南",
+          "privacy": "隐私",
+          "blog": "博客",
+          "partner": "合作伙伴",
+          "hackathon": "黑客松"
+        }
+      },
+      "copyright": "(c) {year} Attrax AI。原型落地页。"
+    },
+    "testimonials": {
+      "eyebrow": "用户声音",
+      "title": "发布后，构建者怎么说",
+      "subtitle": "更快验证、更高买家意向、更清晰转化信号。",
+      "items": {
+        "maya": {
+          "quote": "20 分钟完成上架，当周就拿到首批 27 位付费用户。",
+          "name": "Maya R.",
+          "role": "创始人，PromptDock"
+        },
+        "derek": {
+          "quote": "发布页 + 资讯订阅的组合，比我们之前 Product Hunt 的表现更好。",
+          "name": "Derek T.",
+          "role": "增长负责人，AgentFlow"
+        },
+        "sana": {
+          "quote": "早鸟定价和高意向流量，帮助我们快速验证了产品定位。",
+          "name": "Sana K.",
+          "role": "联合创始人，SynthOps"
+        },
+        "leo": {
+          "quote": "我们可以每天迭代，并清楚看到哪段文案提升了点击率。",
+          "name": "Leo M.",
+          "role": "独立开发者"
+        },
+        "aarav": {
+          "quote": "最惊喜的是流量质量。访客比广告少，但意向高得多。",
+          "name": "Aarav P.",
+          "role": "创作者，VisionGrid"
+        }
+      }
+    },
+    "gtm": {
+      "eyebrow": "发布智能",
+      "title": "AI 驱动的 GTM 引擎",
+      "launchpad": {
+        "title": "一体化发布平台",
+        "subtitle": "把发布页、定价、分发和分析整合到同一层，专为 AI 产品团队打造。",
+        "points": {
+          "1": "秒级完成上架配置",
+          "2": "发布就绪的文案指引",
+          "3": "内置转化追踪"
+        },
+        "cta": "开始测试"
+      },
+      "affiliate": {
+        "title": "全球分销 AI",
+        "subtitle": "通过精准合作分发与高意向资讯订阅流量触达买家。"
+      },
+      "vetting": {
+        "title": "智能审核代理",
+        "subtitle": "通过质量检查和发布就绪评分，确保页面上线前已优化到位。"
+      },
+      "pricing": {
+        "title": "动态定价代理",
+        "subtitle": "通过早鸟优惠、组合方案和定位实验，最大化转化和发布收入。"
+      }
+    },
+    "trusted": {
+      "title": "被世界一流团队采用。",
+      "subtitle": "从新锐创业公司到成熟企业。"
+    },
+    "workflow": {
+      "title": "4 步完成发布闭环",
+      "subtitle": "快速发布、验证转化、放大有效策略。",
+      "steps": {
+        "build": {
+          "title": "构建",
+          "text": "创建列表、上传素材，并在几分钟内完成定价设置。"
+        },
+        "launch": {
+          "title": "发布",
+          "text": "发布到市场并开启资讯订阅分发。"
+        },
+        "measure": {
+          "title": "衡量",
+          "text": "追踪浏览、点击和转化，持续优化产品定位。"
+        },
+        "scale": {
+          "title": "扩展",
+          "text": "复用成功方案，叠加优惠，拓展更多用户群。"
+        }
+      }
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "发布到 Attrax 前你关心的问题。",
+      "items": {
+        "1": {
+          "q": "可以免费提交吗？",
+          "a": "可以。你可以先免费发布列表，后续需要高级曝光位再升级。"
+        },
+        "2": {
+          "q": "审核通常需要多久？",
+          "a": "大多数提交会在 24 到 48 小时内完成审核，具体取决于队列量。"
+        },
+        "3": {
+          "q": "发布后还能修改吗？",
+          "a": "可以。你可以随时在控制台更新文案、媒体和优惠信息。"
+        },
+        "4": {
+          "q": "支持退款吗？",
+          "a": "支持。我们为用户提供 30 天无理由退款。"
+        }
+      }
+    }
+  }
+}

@@ -35,3 +35,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 display_platform/comp_website_be/
+
+# display_platform
+/display_platform/node_modules
+/display_platform/.next
+/display_platform/test-repo
+
+# AT
+/AT

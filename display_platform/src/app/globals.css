@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Fraunces", ui-serif, Georgia, serif;
+  --bg: 249 249 249;
+  --surface: 255 255 255;
+  --text: 0 0 0;
+  --text-muted: 100 100 100;
+  --border: 0 0 0;
+  --brand: 255 101 81;
+  --shadow: 0 0 0;
+}
+
+.dark {
+  color-scheme: dark;
+  --bg: 11 11 11;
+  --surface: 18 18 18;
+  --text: 249 249 249;
+  --text-muted: 249 249 249;
+  --border: 249 249 249;
+  --brand: 255 101 81;
+  --shadow: 0 0 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(var(--bg));
+  color: rgb(var(--text));
+  text-rendering: geometricPrecision;
+}
+
+/* Subtle brand wash (palette-only: brand + black opacity over surface) */
+.page-bg {
+  background-image: radial-gradient(
+      900px 600px at 18% 12%,
+      rgb(var(--brand) / 0.10),
+      transparent 60%
+    ),
+    radial-gradient(
+      900px 600px at 82% 18%,
+      rgb(var(--text) / 0.06),
+      transparent 60%
+    );
+}
+
+/* Global focus treatment (components can also add focus-visible:ring-brand/..) */
+:focus-visible {
+  outline: 2px solid rgba(255, 101, 81, 0.85);
+  outline-offset: 2px;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+@keyframes shimmer-x {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes hero-slide-left {
+  0% {
+    opacity: 0;
+    transform: translate3d(-72vw, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes hero-slide-right {
+  0% {
+    opacity: 0;
+    transform: translate3d(72vw, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@layer utilities {
+  .bg-canvas-grid {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.08) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.08) 1px,
+        transparent 1px
+      );
+    background-size: 56px 56px;
+    background-position: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

@@ -1,0 +1,939 @@
+{
+  "common": {
+    "menu": {
+      "open": "Open menu",
+      "close": "Close menu",
+      "title": "Menu",
+      "user": "User menu"
+    },
+    "language": {
+      "en": "English",
+      "zh": "中文",
+      "switchTo": "Switch to {locale}",
+      "current": "Current language: {locale}"
+    },
+    "theme": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark",
+      "toggle": "Toggle theme",
+      "switchTo": "Switch to {theme}"
+    },
+    "newsletter": {
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@company.com",
+      "join": "Join",
+      "joining": "Joining...",
+      "success": "Subscribed.",
+      "error": "Something went wrong. Try again.",
+      "unreachable": "Could not reach the server. Try again."
+    },
+    "upload": {
+      "hint": "Drag and drop files here, or choose a file.",
+      "choose": "Choose file"
+    },
+    "redirecting": "Redirecting..."
+  },
+  "nav": {
+    "pricing": "Pricing",
+    "caseStudies": "Case studies",
+    "resources": {
+      "title": "Resources",
+      "overview": {
+        "title": "Overview",
+        "description": "What Attrax includes and how to use it."
+      },
+      "docs": {
+        "title": "Docs",
+        "description": "API, embeds, and publishing references."
+      },
+      "guides": {
+        "title": "Guides",
+        "description": "Step-by-step playbooks for launching."
+      },
+      "blog": {
+        "title": "Blog",
+        "description": "Product updates, stories, and tactics."
+      },
+      "faq": {
+        "title": "FAQ",
+        "description": "Common questions and quick answers."
+      }
+    },
+    "community": {
+      "title": "Community",
+      "hub": {
+        "title": "Community Hub",
+        "description": "Where builders share launches and feedback."
+      },
+      "events": {
+        "title": "Events",
+        "description": "Upcoming demos, sessions, and meetups."
+      },
+      "partners": {
+        "title": "Partners",
+        "description": "Tools and teams we collaborate with."
+      },
+      "newsletter": {
+        "title": "Newsletter",
+        "description": "Get launches and trends in your inbox."
+      }
+    },
+    "console": "Console",
+    "signOut": "Sign out",
+    "logIn": "Log in",
+    "signUp": "Sign up",
+    "launchProduct": "Launch product",
+    "launchHint": "You'll be prompted to sign in if you don't have a session."
+  },
+  "auth": {
+    "consoleEyebrow": "Attrax AI Console",
+    "titleSignUp": "Create your account",
+    "titleSignIn": "Welcome back",
+    "subtitleSignUp": "Start submitting new AI products in minutes.",
+    "subtitleSignIn": "Sign in to manage your product launches.",
+    "fullName": "Full name",
+    "fullNamePlaceholder": "Jane Doe",
+    "email": "Email address",
+    "emailPlaceholder": "you@company.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter a password",
+    "pleaseWait": "Please wait...",
+    "createAccount": "Create account",
+    "signIn": "Sign in",
+    "haveAccount": "Already have an account?",
+    "newToAttrax": "New to Attrax AI?",
+    "createOne": "Create one",
+    "backToMarketing": "Back to landing page",
+    "signingOut": "Signing you out..."
+  },
+  "console": {
+    "eyebrow": "Management Console",
+    "signedInAs": "Signed in as",
+    "signOut": "Sign out",
+    "unknownUser": "Unknown",
+    "nav": {
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "newProduct": "New Product",
+      "start": "Start"
+    },
+    "cta": {
+      "title": "Ready to launch?",
+      "description": "Create a new listing and get reviewed within 48 hours.",
+      "action": "Launch now"
+    },
+    "checkingSession": "Checking session...",
+    "redirecting": "Redirecting to sign in...",
+    "titles": {
+      "console": "Console",
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "newProduct": "New Product",
+      "editProduct": "Edit Product",
+      "preview": "Product Preview"
+    },
+    "stats": {
+      "total": "Total products",
+      "drafts": "Drafts",
+      "submitted": "Submitted",
+      "published": "Published"
+    },
+    "recentActivity": {
+      "title": "Recent activity",
+      "subtitle": "A quick pulse on what's happening with your listings."
+    },
+    "loadingActivity": "Loading activity...",
+    "emptyActivity": {
+      "title": "No activity yet",
+      "description": "Create a product to start tracking changes.",
+      "action": "Create new product"
+    },
+    "activity": {
+      "draftSaved": {
+        "title": "Draft saved",
+        "description": "Attrax AI Studio listing updated."
+      },
+      "submissionQueued": {
+        "title": "Submission queued",
+        "description": "Awaiting review from the Attrax AI team."
+      },
+      "assetUpdated": {
+        "title": "Asset updated",
+        "description": "New hero cover image added."
+      }
+    },
+    "products": {
+      "title": "All products",
+      "subtitle": "Manage drafts, submissions, and published listings.",
+      "create": "Create New Product"
+    },
+    "loadingProduct": "Loading product...",
+    "notFound": {
+      "title": "Product not found",
+      "description": "We couldn't locate this product.",
+      "editDescription": "We couldn't find this product. Return to your products list.",
+      "action": "Back to products"
+    },
+    "preview": {
+      "label": "Preview",
+      "brochure": "Brochure preview"
+    },
+    "editProduct": "Edit product",
+    "untitledProduct": "Untitled product",
+    "organizationPending": "Organization pending",
+    "loadingProducts": "Loading products...",
+    "emptyProducts": {
+      "title": "No products yet",
+      "description": "Create your first listing and start collecting feedback from the community.",
+      "action": "Create new product"
+    },
+    "table": {
+      "product": "Product",
+      "status": "Status",
+      "updated": "Updated",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "delete": "Delete"
+    },
+    "delete": {
+      "title": "Delete product?",
+      "description": "This will remove the product from your console. This action cannot be undone.",
+      "confirm": "Delete"
+    }
+  },
+  "products": {
+    "tabs": {
+      "all": "All",
+      "newest": "Newest",
+      "popular": "Popular"
+    },
+    "untitled": "Untitled product",
+    "organizationFallback": "Organization",
+    "featured": "Featured",
+    "updated": "Updated {date}",
+    "defaultSlogan": "A new AI product for modern teams.",
+    "view": "View",
+    "visitWebsite": "Visit website",
+    "likes": "Likes",
+    "saves": "Saves",
+    "ratingCount": "({count})",
+    "demoBadge": "Demo",
+    "demoListing": "Demo listing",
+    "demoHelper": "Seeded data for preview.",
+    "featuredTitle": "Featured",
+    "featuredSubtitle": "Hand-picked launches and standout teams.",
+    "trendingTitle": "Trending today",
+    "trendingSubtitle": "Most viewed products across the marketplace.",
+    "trendingBadge": "Trending",
+    "views": "{count} views",
+    "curatedTitle": "Curated products",
+    "curatedSubtitle": "Hand-picked AI launches from the Attrax marketplace.",
+    "viewAll": "View all products",
+    "curatedEmpty": {
+      "title": "No curated products yet",
+      "description": "Visit the marketplace to browse all active listings.",
+      "action": "Browse products"
+    },
+    "marketplaceEyebrow": "Marketplace",
+    "marketplaceTitle": "Discover AI Products",
+    "marketplaceSubtitle": "Explore the AttraX marketplace of teams building the next wave of AI.",
+    "searchPlaceholder": "Search product or organization",
+    "sort": {
+      "label": "Sort",
+      "newest": "Newest",
+      "popular": "Popular",
+      "name": "Name"
+    },
+    "filters": {
+      "status": "Status",
+      "statusAll": "All statuses",
+      "region": "Region",
+      "tags": "Tags",
+      "demo": "Demo listings",
+      "demoHint": "Include seeded demo data in results.",
+      "showDemo": "Show demo listings"
+    },
+    "regions": {
+      "all": "All regions",
+      "global": "Global",
+      "na": "North America",
+      "eu": "Europe",
+      "apac": "APAC",
+      "other": "Other"
+    },
+    "tags": {
+      "generalAssistant": "General Assistant",
+      "imageGeneration": "Image generation",
+      "videoCreation": "Video Creation",
+      "audioProcessing": "Audio Processing",
+      "programmingDevelopment": "Programming Development",
+      "smartSearch": "Smart Search",
+      "knowledgeManagement": "Knowledge Management",
+      "writingAids": "Writing aids",
+      "smartHardware": "Smart Hardware",
+      "virtualCompanionship": "Virtual companionship",
+      "agentBuild": "Agent build",
+      "efficiencyTools": "Efficiency Tools",
+      "generation3d": "3D generation",
+      "scientificResearchAssistant": "Scientific research assistant",
+      "otherTypes": "Other types"
+    },
+    "empty": {
+      "title": "No products yet",
+      "description": "Be the first to add your product to the AttraX marketplace.",
+      "action": "Add your product"
+    },
+    "browseTitle": "Browse products",
+    "browseSubtitle": "{count} listings",
+    "loadMore": "Load more",
+    "marketplaceLabel": "Marketplace",
+    "detailsTitle": "Product details",
+    "trailer": {
+      "title": "Trailer",
+      "noteFallback": "Trailer experience is enabled.",
+      "releaseDate": "Release date: {date}",
+      "reserve": "Reserve a spot"
+    },
+    "acknowledgements": "Acknowledgements",
+    "snapshot": {
+      "title": "Snapshot",
+      "organization": "Organization:",
+      "region": "Region:",
+      "productType": "Product type:",
+      "updated": "Updated:",
+      "views": "Views:",
+      "pricing": "Pricing"
+    },
+    "brochureTitle": "Brochure card",
+    "atlasTitle": "Atlas gallery",
+    "backToProducts": "Back to products",
+    "notFound": {
+      "title": "Product not found",
+      "description": "We couldn't locate this product in the marketplace.",
+      "action": "Back to products"
+    },
+    "previewLabel": "Preview",
+    "previewDescriptionFallback": "Your product description will appear here. Add details and update the preview.",
+    "actions": {
+      "follow": "Follow",
+      "visitSite": "Visit site"
+    },
+    "coverPlaceholder": "Cover image placeholder (uploads appear after save).",
+    "previewSloganFallback": "Describe your product in one memorable sentence.",
+    "pricing": {
+      "free": "Free",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "oneTime": "one-time",
+      "contact": "Pricing available"
+    },
+    "types": {
+      "software": "Software",
+      "agent": "Agent",
+      "modelApi": "Model/API",
+      "hardware": "Hardware",
+      "robotics": "Robotics",
+      "researchDemo": "Research/Demo"
+    }
+  },
+  "interactions": {
+    "follow": "Follow",
+    "following": "Following",
+    "bookmark": "Bookmark",
+    "bookmarked": "Bookmarked",
+    "comments": "Comments"
+  },
+  "comments": {
+    "commentsTitle": "Comments",
+    "writeComment": "Write a comment...",
+    "writeReply": "Write a reply...",
+    "postComment": "Post comment",
+    "reply": "Reply",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loadMore": "Load more",
+    "loadingMore": "Loading...",
+    "viewReplies": "View replies",
+    "hideReplies": "Hide replies",
+    "continueThread": "Continue thread",
+    "loadingComments": "Loading comments...",
+    "loadingReplies": "Loading replies...",
+    "emptyComments": "No comments yet. Be the first to add one.",
+    "deletedComment": "This comment has been deleted.",
+    "signInToInteract": "Sign in to follow, bookmark, or comment on products.",
+    "signIn": "Sign in",
+    "anonymous": "Anonymous"
+  },
+  "wizard": {
+    "steps": {
+      "basic": "Basic",
+      "details": "Details",
+      "acknowledgements": "Acknowledgements",
+      "trailer": "Trailer",
+      "preview": "Preview"
+    },
+    "status": {
+      "submitted": "Submitted for review successfully.",
+      "draftSaved": "Draft saved successfully.",
+      "draftSavedShort": "Draft saved.",
+      "saving": "Saving...",
+      "success": "Success",
+      "error": "There was a problem"
+    },
+    "mode": {
+      "edit": "Editing product",
+      "new": "New submission"
+    },
+    "stepCounter": "Step {step} of {total}",
+    "clearStep": "Clear step",
+    "actions": {
+      "previous": "Previous",
+      "saveDraft": "Save draft",
+      "next": "Next step"
+    },
+    "clearModal": {
+      "title": "Clear this step?",
+      "description": "This will reset all fields in the current step.",
+      "confirm": "Clear"
+    },
+    "restoring": "Restoring draft...",
+    "basic": {
+      "productName": "Product name",
+      "productNamePlaceholder": "Attrax AI Studio",
+      "website": "Official website URL",
+      "websitePlaceholder": "https://",
+      "organization": "Organization",
+      "organizationPlaceholder": "Attrax AI Labs",
+      "contactEmail": "Contact email",
+      "contactEmailPlaceholder": "team@dovble.ai",
+      "relationship": "Submitter relationship",
+      "region": "Region",
+      "regionPlaceholder": "Select a region",
+      "productType": "Product type",
+      "productTypePlaceholder": "Select a type"
+    },
+    "relationship": {
+      "owner": {
+        "title": "Founder / Owner",
+        "description": "I built the product."
+      },
+      "teamMember": {
+        "title": "Team member",
+        "description": "I represent the team."
+      },
+      "thirdParty": {
+        "title": "Third party",
+        "description": "I'm submitting on behalf."
+      }
+    },
+    "types": {
+      "software": "Software",
+      "agent": "Agent",
+      "modelApi": "Model/API",
+      "hardware": "Hardware",
+      "robotics": "Robotics",
+      "researchDemo": "Research/Demo"
+    },
+    "details": {
+      "introSlogan": "Intro slogan",
+      "introSloganPlaceholder": "A one-line slogan that explains the value.",
+      "productDetails": "Product details",
+      "productDetailsPlaceholder": "Explain what the product does, who it's for, and why it's unique.",
+      "markdownOn": "Markdown supported (basic).",
+      "markdownOff": "Plain text mode.",
+      "toggleMarkdown": "Toggle markdown mode",
+      "togglePreview": "Toggle preview",
+      "previewTitle": "Live preview",
+      "classificationTags": "Classification tags",
+      "productLogo": "Product logo",
+      "productLogoHint": "Square logo preferred (optional).",
+      "productCover": "Product cover",
+      "productCoverHint": "Wide hero cover image (optional).",
+      "coverTemplates": "Choose a cover template",
+      "coverTemplatesHint": "Pick a demo cover to give your listing a polished look.",
+      "coverTemplateAlt": "Cover template preview",
+      "selectedCover": "Selected",
+      "clearCover": "Clear selection",
+      "templateCoverLabel": "Template cover selected.",
+      "logoPreview": "Logo preview",
+      "noLogo": "No logo selected.",
+      "coverPreview": "Cover preview",
+      "noCover": "No cover selected.",
+      "productVideoUrl": "Product video URL",
+      "productVideoPlaceholder": "https://youtube.com/...",
+      "atlasImages": "Details page atlas images",
+      "atlasImagesHint": "Upload multiple screenshots or images.",
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "remove": "Remove",
+      "noAtlas": "No atlas images yet. Drag files to add and arrange.",
+      "emptyPreview": "Add product details to see a preview."
+    },
+    "tags": {
+      "helper": "Select {min}-{max} tags.",
+      "selectedCount": "{selected}/{max} selected"
+    },
+    "ack": {
+      "title": "Add products used",
+      "subtitle": "Credit the tools or services that helped you build this product.",
+      "productName": "Product name",
+      "productNamePlaceholder": "OpenAI API",
+      "url": "URL (optional)",
+      "urlPlaceholder": "https://",
+      "note": "Note (optional)",
+      "notePlaceholder": "What role did it play in your build?",
+      "add": "Add product",
+      "update": "Update product",
+      "empty": "No acknowledgements added yet.",
+      "edit": "Edit",
+      "remove": "Remove"
+    },
+    "trailer": {
+      "title": "Trailer release",
+      "subtitle": "Schedule a teaser release for your product (optional).",
+      "enable": "Enable trailer",
+      "releaseTime": "Trailer release time",
+      "note": "Trailer note",
+      "notePlaceholder": "What should people expect?",
+      "rules": "Trailer rules: release time must be at least 24 hours from now. You can optionally add a reservation link for early access.",
+      "reservations": {
+        "title": "Enable reservations",
+        "subtitle": "Let users reserve a spot before launch.",
+        "enable": "Enable reservations",
+        "url": "Reservation URL",
+        "placeholder": "https://"
+      }
+    },
+    "preview": {
+      "detailTitle": "Product detail preview",
+      "cardTitle": "Brochure card preview",
+      "readyTitle": "Ready to submit?",
+      "readySubtitle": "Review your details, then send for review.",
+      "saveDraft": "Save as Draft",
+      "submit": "Submit for Review",
+      "back": "Go back"
+    }
+  },
+  "status": {
+    "draft": "Draft",
+    "submitted": "Submitted",
+    "published": "Published"
+  },
+  "validation": {
+    "nameRequired": "Please enter your name.",
+    "emailInvalid": "Please enter a valid email address.",
+    "passwordMin": "Password must be at least 6 characters.",
+    "generic": "Something went wrong.",
+    "productNameRequired": "Product name is required.",
+    "productNameMax": "Max 24 characters.",
+    "websiteRequired": "Valid website URL required.",
+    "organizationRequired": "Organization is required.",
+    "organizationMax": "Max 32 characters.",
+    "relationshipRequired": "Select a relationship.",
+    "contactEmailRequired": "Valid contact email required.",
+    "productDetailsRequired": "Product details are required.",
+    "tagsMin": "Select at least one tag.",
+    "tagsMax": "Up to 3 tags max.",
+    "urlInvalid": "Enter a valid URL.",
+    "trailerReleaseRequired": "Pick a release time.",
+    "trailerReleaseWindow": "Release must be at least 24 hours from now.",
+    "reservationUrlInvalid": "Enter a valid reservation URL."
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Simple pricing for launches",
+    "subtitle": "Placeholder page. We'll outline plans, what's included, and how submissions get featured.",
+    "actions": {
+      "explore": "Explore marketplace",
+      "launch": "Launch product"
+    }
+  },
+  "caseStudies": {
+    "eyebrow": "Case studies",
+    "title": "How teams launch with Attrax",
+    "subtitle": "Placeholder page. We'll highlight real outcomes, traffic, and conversion stories from featured listings.",
+    "actions": {
+      "browse": "Browse products",
+      "launch": "Launch product"
+    }
+  },
+  "resources": {
+    "overview": {
+      "eyebrow": "Resources",
+      "title": "Documentation & guides",
+      "subtitle": "Placeholder page. Links to docs, guides, and FAQs will live here.",
+      "actions": {
+        "docs": "Read docs",
+        "launch": "Launch product"
+      }
+    },
+    "docs": {
+      "eyebrow": "Resources / Docs",
+      "title": "Docs",
+      "subtitle": "Placeholder page for documentation and reference material.",
+      "actions": {
+        "back": "Back to resources",
+        "explore": "Explore products"
+      }
+    },
+    "guides": {
+      "eyebrow": "Resources / Guides",
+      "title": "Guides",
+      "subtitle": "Placeholder page for launch playbooks and best practices.",
+      "actions": {
+        "back": "Back to resources",
+        "launch": "Launch product"
+      }
+    },
+    "blog": {
+      "eyebrow": "Resources / Blog",
+      "title": "Blog",
+      "subtitle": "Placeholder page for updates, tactics, and stories from launches.",
+      "actions": {
+        "back": "Back to resources",
+        "explore": "Explore marketplace"
+      }
+    },
+    "faq": {
+      "eyebrow": "Resources / FAQ",
+      "title": "FAQ",
+      "subtitle": "Placeholder page. Answers about submissions, reviews, and featured spots.",
+      "actions": {
+        "back": "Back to resources",
+        "launch": "Launch product"
+      }
+    }
+  },
+  "community": {
+    "hub": {
+      "eyebrow": "Community",
+      "title": "Community hub",
+      "subtitle": "Placeholder page. This is where builders share launches, feedback, and collaborations.",
+      "actions": {
+        "events": "View events",
+        "explore": "Explore products"
+      }
+    },
+    "events": {
+      "eyebrow": "Community / Events",
+      "title": "Events",
+      "subtitle": "Placeholder page for demos, talks, and community sessions.",
+      "actions": {
+        "back": "Back to community",
+        "launch": "Launch product"
+      }
+    },
+    "partners": {
+      "eyebrow": "Community / Partners",
+      "title": "Partners",
+      "subtitle": "Placeholder page for partner programs and collaboration opportunities.",
+      "actions": {
+        "back": "Back to community",
+        "explore": "Explore products"
+      }
+    },
+    "newsletter": {
+      "eyebrow": "Community / Newsletter",
+      "title": "Newsletter",
+      "subtitle": "Placeholder page for community updates and weekly launch roundups.",
+      "actions": {
+        "back": "Back to community",
+        "explore": "Explore marketplace"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Backed by AI Secret newsletter",
+      "title": "Unlock global markets for your AI products",
+      "subtitle": "The all-in-one infrastructure to launch, monetize, and scale. Publish a crisp launch page, reach high-intent early adopters, and track what converts.",
+      "actions": {
+        "launch": "Get started",
+        "recommended": "Recommended",
+        "discover": "See what's hot",
+        "watch": "Watch video"
+      },
+      "scroll": "Why Attrax works",
+      "panel": {
+        "eyebrow": "Launch canvas",
+        "title": "Everything you need to ship a clean launch",
+        "subtitle": "A storefront listing that sells, a newsletter audience that clicks, and analytics that prove it.",
+        "badge": "Live preview",
+        "items": {
+          "listing": "Launch-ready listing with screenshots",
+          "distribution": "Newsletter distribution to early adopters",
+          "deals": "Pricing links + early-bird deals",
+          "analytics": "Views, clicks, and conversion tracking"
+        }
+      },
+      "floating": {
+        "builders": "Launch fast, validate with real clicks.",
+        "users": "Find great tools with real deals."
+      }
+    },
+    "why": {
+      "title": "Why builders and early adopters choose Attrax AI",
+      "subtitle": "Built for launch velocity without sacrificing trust.",
+      "builders": {
+        "eyebrow": "For builders",
+        "title": "Validation engine",
+        "bullets": {
+          "seed": "Seed early users from a discovery-first audience.",
+          "validate": "Validate positioning with real signal, not vibes.",
+          "cta": "Zero-friction CTAs: pricing, links, and signup in one place."
+        }
+      },
+      "users": {
+        "eyebrow": "For users",
+        "title": "Best deal guarantee",
+        "bullets": {
+          "lifetime": "Lifetime deals and early-bird pricing.",
+          "earlyBird": "Compare quickly, buy with confidence.",
+          "quality": "Curated launches with quality signals and screenshots."
+        }
+      }
+    },
+    "video": {
+      "eyebrow": "Video explanation",
+      "title": "See how launches turn into traction",
+      "subtitle": "A quick walkthrough of listings, distribution, and what gets featured.",
+      "action": "Play walkthrough",
+      "close": "Close",
+      "previewAlt": "Video preview"
+    },
+    "comparison": {
+      "title": "Competitor Comparison",
+      "subtitle": "Landing page + social proof + product showcase, in one launch flow.",
+      "cards": {
+        "productHunt": {
+          "title": "Product Hunt",
+          "note": "(Too much noise)",
+          "points": {
+            "1": "Crowded launch feed",
+            "2": "Short visibility window",
+            "3": "Low purchase intent",
+            "4": "Algorithm roulette"
+          }
+        },
+        "kickstarter": {
+          "title": "Kickstarter",
+          "note": "(Too slow)",
+          "points": {
+            "1": "Long prep timeline",
+            "2": "Heavy campaign overhead",
+            "3": "Funding-first flow",
+            "4": "Not built for AI tools"
+          }
+        },
+        "attrax": {
+          "title": "Why Attrax",
+          "note": "(Instant launch & cash)",
+          "badge": "Best fit for AI launches",
+          "points": {
+            "1": "Instant launch + polished listing",
+            "2": "Newsletter distribution to buyers",
+            "3": "Pricing + early-bird deals built in",
+            "4": "Signal-driven feedback and traction"
+          }
+        }
+      }
+    },
+    "market": {
+      "eyebrow": "Product store",
+      "title": "Access premium AI tools at exclusive early-stage prices",
+      "subtitle": "Browse what's hot, compare quickly, and jump straight to the best offer.",
+      "actions": {
+        "launch": "Try the free launch",
+        "browse": "Browse marketplace"
+      },
+      "hot": "Hot",
+      "sparklineLabel": "Trending activity",
+      "empty": {
+        "title": "No hot products yet",
+        "description": "When launches go live, you'll see them here.",
+        "action": "Browse marketplace"
+      },
+      "new": "New",
+      "fresh": "Fresh",
+      "productAlt": "Product",
+      "untitled": "Untitled",
+      "team": "Team",
+      "viewDetails": "View details"
+    },
+    "waitlist": {
+      "title": "Join the waitlist",
+      "subtitle": "Get early access, new launches, and limited-time deals. No spam.",
+      "form": {
+        "title": "Get early access",
+        "subtitle": "One email, that's it."
+      },
+      "eyebrow": "Early access",
+      "note": "One concise email per week with launch opportunities and high-intent buyer traffic.",
+      "benefits": {
+        "1": "Weekly curated launch picks",
+        "2": "Early pricing and bonus deals",
+        "3": "Founder notes on what converts",
+        "4": "No spam, unsubscribe anytime"
+      }
+    },
+    "stats": {
+      "subscribers": {
+        "label": "Subscribers",
+        "detail": "Newsletter distribution at scale."
+      },
+      "openRate": {
+        "label": "Daily open rate",
+        "detail": "A community that pays attention."
+      },
+      "clicks": {
+        "label": "Clicks",
+        "detail": "High-intent traffic to your launch."
+      }
+    },
+    "footer": {
+      "blurb": "A clean launch and discovery platform for AI builders and early adopters.",
+      "product": {
+        "title": "Product",
+        "links": {
+          "video": "Video",
+          "market": "Marketplace",
+          "waitlist": "Waitlist",
+          "gtm": "GTM"
+        }
+      },
+      "company": {
+        "title": "Company",
+        "links": {
+          "about": "About",
+          "contact": "Contact",
+          "careers": "Careers"
+        }
+      },
+      "resources": {
+        "title": "Resources",
+        "links": {
+          "newsletter": "Newsletter",
+          "guidelines": "Guidelines",
+          "privacy": "Privacy",
+          "blog": "Blog",
+          "partner": "Partner",
+          "hackathon": "Hackathon"
+        }
+      },
+      "copyright": "(c) {year} Attrax AI. Prototype landing page."
+    },
+    "testimonials": {
+      "eyebrow": "User voices",
+      "title": "What builders say after launch",
+      "subtitle": "Fast validation, better buyer intent, and clearer conversion signals.",
+      "items": {
+        "maya": {
+          "quote": "Listed in 20 minutes and got our first 27 paid users in the same week.",
+          "name": "Maya R.",
+          "role": "Founder, PromptDock"
+        },
+        "derek": {
+          "quote": "The launch page + newsletter combo converted better than our previous Product Hunt push.",
+          "name": "Derek T.",
+          "role": "Growth Lead, AgentFlow"
+        },
+        "sana": {
+          "quote": "Early-bird pricing and buyer-ready traffic helped us validate positioning fast.",
+          "name": "Sana K.",
+          "role": "Co-founder, SynthOps"
+        },
+        "leo": {
+          "quote": "We shipped updates daily and could see exactly what copy increased click-through.",
+          "name": "Leo M.",
+          "role": "Indie Builder"
+        },
+        "aarav": {
+          "quote": "The quality of traffic was the surprise. Fewer visitors than ads, but much higher intent.",
+          "name": "Aarav P.",
+          "role": "Maker, VisionGrid"
+        }
+      }
+    },
+    "gtm": {
+      "eyebrow": "Launch intelligence",
+      "title": "AI-Powered GTM Engine",
+      "launchpad": {
+        "title": "The all-in-one launchpad",
+        "subtitle": "Launch pages, pricing, distribution, and analytics in one operating layer built for AI product teams.",
+        "points": {
+          "1": "Instant listing setup",
+          "2": "Launch-ready copy guidance",
+          "3": "Built-in conversion tracking"
+        },
+        "cta": "Start Test"
+      },
+      "affiliate": {
+        "title": "Global affiliate AI",
+        "subtitle": "Reach buyers through targeted partner distribution and high-intent newsletter traffic."
+      },
+      "vetting": {
+        "title": "Smart vetting agent",
+        "subtitle": "Quality checks and launch readiness scoring ensure your page is optimized before going live."
+      },
+      "pricing": {
+        "title": "Dynamic pricing agent",
+        "subtitle": "Experiment with early-bird deals, bundles, and positioning variations to maximize conversion and launch revenue."
+      }
+    },
+    "trusted": {
+      "title": "Powering the world's best companies.",
+      "subtitle": "From next-gen startups to established enterprises."
+    },
+    "workflow": {
+      "title": "The workflow in 4 steps",
+      "subtitle": "A simple cycle to launch fast, learn what converts, and scale what works.",
+      "steps": {
+        "build": {
+          "title": "Build",
+          "text": "Create your listing, upload visuals, and set pricing in minutes."
+        },
+        "launch": {
+          "title": "Launch",
+          "text": "Publish to the marketplace and activate newsletter distribution."
+        },
+        "measure": {
+          "title": "Measure",
+          "text": "Track views, clicks, and conversion to improve your positioning."
+        },
+        "scale": {
+          "title": "Scale",
+          "text": "Repeat winners, stack deals, and expand into new user segments."
+        }
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Quick answers for frequently asked questions before you launch on Attrax.",
+      "items": {
+        "1": {
+          "q": "Can I submit for free?",
+          "a": "Yes. You can launch a listing for free and upgrade later if you need premium placement."
+        },
+        "2": {
+          "q": "How long does review take?",
+          "a": "Most submissions are reviewed within 24 to 48 hours depending on queue volume."
+        },
+        "3": {
+          "q": "Can I edit after launch?",
+          "a": "Yes. You can update copy, media, and offers at any time from the console."
+        },
+        "4": {
+          "q": "Do you offer refunds?",
+          "a": "Yes. We offer a 30-day no-questions-asked refund for users."
+        }
+      }
+    }
+  }
+}
