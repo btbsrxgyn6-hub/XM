@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 255 255 255;
+  --foreground: 17 17 17;
+  --muted: 100 116 139;
+  --border: 226 232 240;
+  --surface: 248 250 252;
+  --primary: 17 17 17;
+  --primary-foreground: 255 255 255;
+  --accent: 99 102 241;
+  --accent-foreground: 255 255 255;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: geometricPrecision;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
